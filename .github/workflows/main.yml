@@ -9,7 +9,6 @@ jobs:
     - id: Build-Vue
       uses: xRealNeon/VuePagesAction@1.0.1
       with:
-        username: 'buildingblocs'
-        reponame: '2023-new'
-        cname: 'new.buildingblocs.sg'
+        username: 'M23604'
+        reponame: 'website'
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
