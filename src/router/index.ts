@@ -12,25 +12,10 @@ const routes = [
         component: () => import('@/views/Home.vue'),
       },
       {
-        path: '/competitions',
-        name: 'Competitions',
-        component: () => import('@/views/Competitions.vue'),
-      },
-      {
-        path: '/team',
+        path: '/students',
         name: 'Team',
         component: () => import('@/views/Team.vue'),
-      },
-      {
-        path: '/events',
-        name: 'Events',
-        component: () => import('@/views/Events.vue'),
-      },
-      {
-        path: '/partners',
-        name: 'Partners',
-        component: () => import('@/views/Partners.vue'),
-      },
+      }
     ],
   },
 ]

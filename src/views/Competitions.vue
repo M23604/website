@@ -1,1 +1,0 @@
-<template><div class="about">Competitions page</div></template>

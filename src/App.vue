@@ -18,11 +18,11 @@
       </v-list-item>
 
       <v-divider></v-divider>
-      <v-list-item href="https://go.buildingblocs.sg/june" style="text-decoration: none; color: inherit;">
+      <v-list-item href="https://github.com/M23604" style="text-decoration: none; color: inherit;">
         <template v-slot:prepend>
-            <v-icon icon="mdi-account-plus"></v-icon>
+            <v-icon icon="mdi-github"></v-icon>
         </template>
-        <v-list-item-title>Register!</v-list-item-title>
+        <v-list-item-title>Our Class GitHub</v-list-item-title>
       </v-list-item>
     </v-list>
 </v-navigation-drawer>
@@ -113,30 +113,10 @@ const drawerRoutes = [
     icon: "mdi-home",
   },
   {
-    name: "Events",
-    path: "/events",
-    icon: "mdi-calendar-multiple-check",
-  },
-  {
-    name: "Competitions",
-    path: `/competitions`,
-    icon: "mdi-trophy-variant"
-  },
-  {
-    name: "Our Team",
-    path: "/team",
+    name: "Our Class",
+    path: "/students",
     icon: "mdi-account-group"
-  },
-  {
-    name: "Partners",
-    path: "/partners",
-    icon: "mdi-domain"
-  },
-  // {
-  //   name: "Register",
-  //   path: "https://go.buildingblocs.sg/june",
-  //   icon: "mdi-account-plus"
-  // }
+  }
 ]
 </script>
 <style>
