@@ -5,8 +5,8 @@
   <v-navigation-drawer v-model="drawerShown" temporary app>
     <v-list dense nav>
       <v-list-item>
-        <!-- bruh idk how to correctly get the image sia  <v-img :src="require('@src/assets/logo.png')" ></v-img>-->
-        <h3 class="orangeicon">BuildingBloCS</h3>
+        <!-- <v-img src="/src/assets/logo.png" ></v-img> -->
+        <h3 class="orangeicon">M23604</h3>
       </v-list-item>
       <v-divider></v-divider>
       <v-list-item v-for="item in drawerRoutes" :to="item.path" @click="drawerShown = false"
@@ -31,7 +31,7 @@
       extended
       :extension-height="screenHeight" :color="'primary'" image="/src/assets/gallery/img2.jpg">
     <!-- <v-app-bar-nav-icon @click="drawerShown = !drawerShown"></v-app-bar-nav-icon> -->
-  <v-avatar v-ripple elevation="10" style="padding: 5px; margin:10px; background-color: #fff; width: 60px; height: 60px; margin-top: 20px;">
+  <v-avatar v-ripple elevation="10" style="margin:10px; background-color: #fff; width: 60px; height: 60px; margin-top: 20px;">
     <v-img src="/src/assets/logo.png" aspect-ratio="1/1"  @click="drawerShown = !drawerShown"></v-img>
   </v-avatar>
 
@@ -44,12 +44,12 @@
     <v-row align="center" justify="start">
         <v-col :align="'center'" justify="center">
             <v-toolbar-title class="text-wrap" :style="{color: 'white'}">
-                <v-card-title style="font-size: 50px; line-height: 1.5cm;" class='text-wrap'>{{ titleName }} 2023 is back!</v-card-title><br>
+                <v-card-title style="font-size: 50px; line-height: 1.5cm;" class='text-wrap'>Error 604</v-card-title><br>
                 <span class="text-wrap">
-                    Singapore's annual computing education <br> outreach programme
+                    Girls not Found.
                 </span>
             </v-toolbar-title>
-            <button @click="router.push('/home')" style=" background: #FFB546; border-radius: 16px;
+            <button @click="router.push('/home')" style=" background: #8EBF7C; border-radius: 16px;
   padding: 10px 24px; margin-top: 30px;
   font-size: 20px;
   font-weight: 600;
@@ -66,8 +66,8 @@
 
 </v-toolbar>
 
-<v-app-bar app v-else collapse extended :extension-height="20" style="width: 90px; background-color: #FFB546;">
-  <v-avatar v-ripple elevation="10" style="padding: 5px; margin:10px; background-color: #fff; width: 60px; height: 60px; margin-top: 20px;">
+<v-app-bar app v-else collapse extended :extension-height="20" style="width: 90px; background-color: #457373;">
+  <v-avatar v-ripple elevation="10" style="margin:10px; background-color: #fff; width: 60px; height: 60px; margin-top: 20px;">
     <v-img src="/src/assets/logo.png" aspect-ratio="1/1"  @click="drawerShown = !drawerShown"></v-img>
   </v-avatar>
 </v-app-bar>
@@ -95,8 +95,6 @@ const route = useRoute()
 
 const screenWidth = computed(() => window.innerWidth)
 const screenHeight = computed(() => window.innerHeight)
-
-const titleName = computed(() => (screenWidth.value > 720) ? 'BuildingBloCS' : 'BBCS')
 
 
 

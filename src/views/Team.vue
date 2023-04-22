@@ -4,14 +4,14 @@
   <v-row>
     <v-col cols="12">
       <div class="px-8 ma-4">
-        <h1 style="font-size: 60px;">Our Team</h1>
+        <h1 style="font-size: 60px;">Our Class</h1>
       </div>
     </v-col>
   </v-row>
   <v-row class="px-8 ma-4 justify-center align-center text-center">
     <v-col cols="12">
       <div class="ma-4 text-left align-left">
-        <h2 style="font-size: 40px;">Our OICs</h2>
+        <h2 style="font-size: 40px;">Our Class Committee</h2>
       </div>
     </v-col>
     <v-col cols="12" sm="6" md="4" v-for="student in classComm" :key="student.name">
@@ -35,7 +35,7 @@
   <v-row class="px-8 ma-4 justify-center align-center text-center">
     <v-col cols="12">
       <div class="ma-4 text-left align-left">
-        <h2 style="font-size: 40px;">Our Organisers</h2>
+        <h2 style="font-size: 40px;">Our Students</h2>
       </div>
     </v-col>
     <v-col cols="12" sm="6" md="4" v-for="organiser in organisers" :key="organiser.name">
