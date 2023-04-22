@@ -22,7 +22,6 @@
     "pinia": "^2.0.34",
     "roboto-fontface": "*",
     "scrollreveal": "^4.0.9",
-    "v-calendar": "^3.0.3",
     "vue": "^3.2.13",
     "vue-file-picker": "^0.0.2",
     "vue-file-selector": "^2.0.2",
